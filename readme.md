@@ -1,0 +1,1 @@
+# Shift - Unshift Method İle Yapılan Küçük Projeler Bu Repo'da
