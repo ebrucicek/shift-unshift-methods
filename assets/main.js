@@ -12,9 +12,9 @@ console.log(persons);
 
 let tickets = ["Şifre sıfırlama", "Ödeme hatası", "Hesap kilitlendi"];
 
-let question = prompt("İlk talebi işleme almak istiyor musunuz?");
+let question = confirm("İlk talebi işleme almak istiyor musunuz?");
 
-if (question == "evet") {
+if (question == true) {
 
   console.log(tickets.shift());
   console.log(tickets);
